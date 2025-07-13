@@ -1,0 +1,238 @@
+body{
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+/*section nav*/
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1124px;
+    margin: 0 auto;
+    margin-bottom: 63px;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.nav-bar li{
+    list-style: none;
+    opacity: 0.7;
+}
+.navigation .search input {
+    width: 508px;
+    height: 45px;
+    border: none;
+    border-radius: 66px;
+    background-color: #F1F1F1;
+    padding-left: 16px;
+    opacity: 0.5;
+    font-style: italic;
+}
+.navigation .search i{
+    position: relative;
+    right: 32px;
+    opacity: 0.6;
+}
+
+/* banner section styles*/
+.banner{
+    max-width: 1212px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: #FBEAEA;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    border-radius: 20px;
+    margin-bottom: 64px;
+}
+.banner .banner-title{
+    text-align: start;
+    width: 565px;
+}
+.banner-title .line{
+    font-size: 16px;
+    opacity: 0.6;
+}
+.banner .banner-title h1{
+    font-size: 56px;
+}
+.banner-title .dollar{
+    font-size: 41px;
+    color: #ec008c;
+    margin: 20px;
+    margin-left: 0px;
+}
+.banner img{
+    width: 403px;
+    height: 378px;
+}
+.banner-title .buy-button{
+    background: linear-gradient(to right, #ec008c, #fc6767);
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    padding-right: 6px;
+    text-decoration: none;
+}
+
+/*catagories style*/
+
+.main-section{
+    max-width: 1128px;
+    margin: 0 auto;
+    margin-bottom: 49px;
+}
+.main-section h3{
+    text-align: start;
+    font-size: 36px;
+}
+.catagories{
+    max-width: 1128px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 26px;
+}
+.watch, .bag, .shoe{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+    gap: 60px;
+}
+.watch, .bag, .shoe p{
+    font-size: 36px;
+    color: white;
+}
+.catagories .watch{
+    background: linear-gradient(to right, #f7b733, #fc4a1a);
+}
+.catagories .bag{
+    background: linear-gradient(to right, #ec008c, #fc6767);
+}
+.catagories .shoe{
+    background: linear-gradient(to right, #396afc, #2948ff);
+}
+
+/*see all*/ 
+.see-all{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1121px;
+    margin: 0 auto;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.see-all h3{
+    font-size: 36px;
+}
+.see-all p{
+    font-size: 16px;
+    color: #FF9D00;
+}
+
+/*products*/
+
+.product{
+    display: flex;
+    max-width: 1123px;
+    margin: 0 auto;
+    text-align: center;
+    gap: 24px;
+}
+
+.product .shoe-card{
+    background-color: white;
+    padding: 24px;
+    border-radius: 20px;
+}
+.shoe-card img{
+    width: 297px;
+    height: 207px;
+}
+.shoe-card h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+.shoe-card p{
+    font-size: 16px;
+    opacity: 0.7;
+}
+.shoe-card a, .btn{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    width: 150px;
+    height: 52px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+}
+
+/* bags styles*/
+
+.shoe-card .bags{
+    width: 290px;
+    height: 290px;
+}
+.double{
+    background-color: #F4F4F4;
+    padding-bottom: 98px;
+    margin-bottom: 71px;
+}
+
+/*footer styles*/
+
+.footer form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footer{
+    text-align: center;
+    padding: 146px 264px;
+    margin: 80px;   
+}
+form input[type="email"]{
+    width: 480px;
+    height: 60px;
+    padding-left: 30px;
+    font-style: italic;
+    font-size: 16px;
+    border-radius: 13px 0 0 13px;
+    border: none;
+    background-color: white;
+    
+}
+form input[type="submit"]{
+    width: 100px;
+    border-radius: 0 13px 13px 0;
+    font-style: italic;
+    font-size: 16px;
+    background-color: red;
+    border: none;
+    color: white;
+
+}
+.foot{
+    background-color: #FBEAE9;
+    max-width: 1212px;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+
+
+ 
